@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitHelper {
 
-    val BASE_URL = "https://api.rootnet.in/covid19-in/"
+    val BASE_URL = "https://api.rootnet.in/covid19-in/stats/latest/"
 
     /**
      * Here we are creating instance for Retrofit.
