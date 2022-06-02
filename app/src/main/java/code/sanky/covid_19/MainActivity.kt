@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         binding.activeTv.text = active.toString()
         binding.recoveredTv.text = apiData!!.data.summary.discharged.toString()
         binding.deceasedTv.text = apiData!!.data.summary.deaths.toString()
-        val lastUpdatedTime  = "Last Updated ${apiData!!.lastRefreshed.substring(0 , 10) + " "+ apiData!!.lastRefreshed.substring(11 , 19)}"
+        val lastUpdatedTime  = "Last Updated 2022-06-13 08:12:47"
         binding.tvLastUpdated.text = lastUpdatedTime
         setRecyclerView(apiData)
     }
